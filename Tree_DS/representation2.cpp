@@ -14,7 +14,7 @@ public:
         for(auto p:l){
             string city = p.first;
             list<pair<string , int>> nbrs = p.second;
-            cout<<"City graph of "<<city<<" is: -> ";
+            cout<<"City graph of "<<city<<" is -> ";
             for(auto nbr:nbrs){
                 string dest = nbr.first;
                 int dist = nbr.second;
